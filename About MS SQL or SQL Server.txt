@@ -1,0 +1,346 @@
+SQL Server is software (A Relational Database Management System) developed by Microsoft. 
+It is also called MS SQL Server. It is implemented from the specification of RDBMS.
+
+
+The relational database management system (RDBMS) is a Microsoft software product mainly 
+used to store and retrieve data for the same or other applications. We can run these 
+applications on the same computer or a different one.
+
+
+Microsoft developed and marketed the SQL Server relational database management system (RDBMS)
+to primarily compete with the MySQL and Oracle databases.
+
+
+Usage of SQL Server:-----
+
+   The following are the key usage of MS SQL Server:
+
+   ------> Its main purpose is to build and maintain databases.
+   ------> It is used to analyze the data using SQL Server Analysis Services (SSAS).
+   ------> It is used to generate reports using SQL Server Reporting Services (SSRS).
+   ------> It is used to perform ETL operations using SQL Server Integration Services (SSIS).
+
+
+SQL Server Editions:-------
+
+    SQL Server comprises five editions with different bundled services and tools and pricing 
+    options to meet the user needs. Microsoft provides two editions of SQL Server free of 
+    charge, which are given below:
+
+	1. SQL Server Developer: This edition was released mainly for use in the non-production 
+			         environment, i.e., database development and testing. It allows 
+			         to build, test, and demo purpose.
+
+
+	2. SQL Server Express: It is used for small-scale applications and databases with disc 
+			       storage capacities of up to 10 GB.
+
+
+	For commercial purposes, the following editions are used:-------------------
+
+	3. SQL Server Enterprise: It is used in high-end, larger, and more critical businesses. 
+			          All SQL Server features, such as high-end security, advanced analytics, 
+			          and machine learning, are included in this version.
+
+
+	4. SQL Server Standard: This edition is suitable for data marts and mid-tier applications that included 
+			        basic reporting and analytics. It supports partial enterprise edition's feature, 
+			        as well as server limitations on the number of processor cores and memory that we 
+			        can configure.
+
+
+	5. SQL Server WEB: This edition is suitable for Web hosters who want a low overall ownership cost. It has 
+			   features of scalability, manageability capabilities, and affordability for small to 
+			   large-scale web properties.
+
+
+
+
+SQL Server provides two types of database:
+	
+	1. System databases
+	2. User Databases
+
+
+	1. System Databases: 
+		The system databases are created automatically while installing the MS SQL Server on our system. 
+		It plays an essential role in the server such database run perfectly. The following are the list 
+		of system databases in SQL Server:
+						  -------> Master
+						  -------> Model
+						  -------> MSDB
+						  -------> Tempdb
+
+
+	2. User Databases: 
+		The user databases are created by database users like 'DBAs' and 'testers' who can access a database also.
+	
+
+
+
+We can create a database in SQL Server mainly in two ways:
+	
+	a. Transact-SQL Command (T-Sql command)
+	b. SQL Server Management Studio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
